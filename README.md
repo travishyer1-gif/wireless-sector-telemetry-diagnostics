@@ -84,11 +84,3 @@ Run the redaction check:
 python3 scripts/check_redaction.py
 ~~~
 
-## What this demonstrates about Travis/Froberto
-
-This project demonstrates the kind of practical automation Travis and Froberto are building around real operations work:
-
-- turning messy field telemetry into a clear diagnostic signal;
-- protecting private customer and company data while still showing credible work;
-- building tools that support technician decisions instead of producing abstract dashboards;
-- closing the loop from diagnosis to field action to after-change validation.
