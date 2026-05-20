@@ -10,9 +10,9 @@ The original work supported a real field decision, but this repository uses synt
 
 ## Problem
 
-Several customer radios on the same sector showed weak performance at the same time. The individual links were not identical, but the pattern suggested the access point was hearing a group of radios worse than those radios were hearing the access point.
+There was an Asymmetry between AP side Signal Chain and CPE side Signal Chains across every customer on an AP as well as suspected self interference at a particular tower site.
 
-That kind of receive asymmetry matters because it can point away from isolated customer installs and toward sector-side health, radio generation, firmware, channel plan, or interference conditions.
+That kind of receive asymmetry matters because it can point away from isolated customer installs and toward sector-side health, radio model/generation, firmware, channel plan, or interference conditions.
 
 ## Approach
 
