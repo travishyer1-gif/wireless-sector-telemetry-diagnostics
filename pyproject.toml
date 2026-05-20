@@ -1,0 +1,18 @@
+[project]
+name = "wireless-sector-telemetry-diagnostics"
+version = "0.1.0"
+description = "Sanitized wireless ISP sector telemetry diagnostics demo."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Travis Hyer" }
+]
+
+[project.scripts]
+analyze-sector = "src.analyze_sector:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
